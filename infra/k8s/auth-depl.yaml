@@ -1,4 +1,3 @@
-# Deployment
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +17,6 @@ spec:
         - name: auth
           image: perrycyliu/auth
 ---
-# Service
 apiVersion: v1
 kind: Service
 metadata:
